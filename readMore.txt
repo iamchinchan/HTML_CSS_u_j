@@ -1,0 +1,5 @@
+-> box-sizing : border-box
+-> inline and block elemments
+->hwight width apply on inline or not?
+-> position: inherit;? 
+-> 

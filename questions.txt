@@ -1,0 +1,7 @@
+->hsl and hwb in colors?
+->Q : asked on udemhy on 11/10/2022 ~3pm? solved by own
+->cascade and selector specificity while resolving conflicts among selectors?
+->q: how to set color of alt text in an image ?
+->q: way to exclude 3rd list from inehriting that li's propertiy after pseudo class applying to them
+->replaced and non replaced elements? height width only appying on replaced inline eleents but not on others.
+->rel = stylesheet? meaning
