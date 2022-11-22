@@ -101,6 +101,49 @@ we should make them inline block or block box type:p refer block type.
 layout: visual structure->  arranging content on page
 page layout, component layout
 
+floats:
+left, right
+clearfix hack: using pseudo element
+clear:both;
+
+flexbox: for 1 d layouts, compatible with 2d layouts using grids
+display: flex;
+gap
+align-items
+justify-content:
+flex-direction:
+flex-wrap:
+align-content:advamce for multiple lines, when wrap is on using flex-wrap: wrap;
+align-self:
+flex-grow:
+flex-shrink:
+flex-basis:
+flex:
+order:
+
+CSS Grid: for 2-d layouts
+display: grid;
+grid-template-columns:px/auto/fr, repeat(num,px/auto/fr)
+grid-template-rows:
+gap:
+row-gap:
+column-gap:
+justify-content: tracks inside container
+align-content:
+
+justify-items: to pos'n grid items inside grid cells
+align-items:
+
+justify-self: overwrite justify-items
+align-self: overwrite align-items
+
+grid-column: 1/-1,  1/ 4,  3/ span 3, 5
+grid:row:
+
+/////////////////////////////////////////////////////////////
+
+Design rules and framework:
+
 
 
 
