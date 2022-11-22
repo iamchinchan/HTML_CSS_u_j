@@ -38,11 +38,11 @@ active pseudo class: duration of click
 
 default style is represented as "user agent stylesheet" in chrome developer tools
 
-declarations marked !important >inline style>id>class or pseudo class > element >* (univesal selector) > innherited styles(text styles are inherited mainly): closest one
+declarations marked !important >inline style>id>class or pseudo class > element >* (univesal selector) > innherited styles(text styles are inherited mainly): closest inherited one are apllied
 
 border-top is not inherited
 
-universal selector * and body{} are diff as dec in body will be inherited to all his
+universal selector * and body{} are diff as declaratoions in body will be inherited to all his
 childrens and will be overwritten if same style is given a another value by any other
 method as inherited styles has lowest priority.
 
@@ -64,7 +64,7 @@ inline level elements: img, a, em, strong, b, button
 
 on inline elements: height and width does not apply, and padding, margins only applied only horizontally(left and right):
 in padding it expands element area by giving it the desired padding but does not inc parents dimensions,\
-so kind of overflow if bg is applied
+so kind of overflow if bg is applied, so left and right padding does get applied but not as usual.
 
 
 margin collapse during vertical margins, not sure of horizontal margins(in horizontal i dont think they collapse)
@@ -82,8 +82,27 @@ normal flow-> relative position, according to html code
 absolute positioning-> 
 
 pseudo element selector-> ::, firstline, first letter, before, after : there are like inline elements-> better to make int inline block
-adjacent element selector-> adjacent siblong selector : very next element code: +
+adjacent element selector-> adjacent sibling selector : very next element code: +
 
 after pseudo element:  last child in resp to which we define it
 and before : first child instead
+
+floats:
+
+floated elements can be given margin around them
+collapsing elements: due to float property. -> clear fix hack for clearing floats
+
+looks like: with floats, margin does not get collapsed (not 100per sure,but looke the case when i tried.
+)
+
+clearing floats only works on block level elements, so for pseudo elemts created by :: after,
+we should make them inline block or block box type:p refer block type.
+
+layout: visual structure->  arranging content on page
+page layout, component layout
+
+
+
+
+
 

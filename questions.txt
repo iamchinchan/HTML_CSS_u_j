@@ -5,3 +5,5 @@
 ->q: way to exclude 3rd list from inehriting that li's propertiy after pseudo class applying to them
 ->replaced and non replaced elements? height width only appying on replaced inline eleents but not on others.
 ->rel = stylesheet? meaning
+-> 
+->
