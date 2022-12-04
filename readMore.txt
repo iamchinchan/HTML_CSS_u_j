@@ -1,6 +1,10 @@
--> box-sizing : border-box
--> inline and block elemments
-->hwight width apply on inline or not?
+->height width apply on inline or not?
+ No, images are not exactly inline, they are kinda inline-block
+
 -> position: inherit;? 
--> collapsing elements?
+
+->figure html element:
+The figure element represents a unit of content, optionally with a caption, that is self-contained, that is typically referenced as a single unit from the main flow of the document, and that can be moved away from the main flow of the document without affecting the document's meaning.
+
+->meta element and properties in them
 ->

@@ -144,8 +144,31 @@ grid:row:
 
 Design rules and framework:
 
+few more html elements:
+
+section: have semantics
+span: just like div but an inline element, having no meaning attached to it
+blockquote: for quotes, for ex: testimonials
+figure: semantic in nature
+
+some imp things while designs:
+
+typography, whitespace, colors, visual hierarchy, images/illustrations, icons, shadows, border-radius , UI, components/layouts
+
+color choice:
+main color, accent color(tools: palleton.com coolers), grey color
+and then we should have tins and shades:  tins and shade generator tools
+
+find imagws for websites on : 
+
+unsplash, pexels, Drawkit, unDraw
+
+for compressing images: squoosh
+
+icons: phosphor icons, ionicons, icons8, heroicons
+always use icon fonts or svg's which are easily scalable.
 
 
-
-
+steal like an artist from example these websites: awwwards, land-book, one page website inspiration , screenlane(for individual components)
+a good start up website example: orizon
 
