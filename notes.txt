@@ -202,3 +202,28 @@ backlground-image: loner-gradient(to side, c1,c2): on top , another back :2nd im
 b-i: url(iamge path);
 background-size:cover; : to give b-i size according to element its being applied to.
 
+html element: menu 
+diff between nav and menu: nac are used for navingatin in the pages of a website
+and menu are for actual functionalities of the web app
+
+main html element: for main content of the web site /app
+
+aside element: fo radditional information 
+
+height of the body html element is not equal to viewport's heoght but is equal to the content inside of it
+
+on button html elements , color proprty does not get inherited from its parent(in which button is present)
+
+buttons are like text elements and are inline-block element by default, so text-align property: center will alo be applied to them
+but specifying specifically display:inline-block prioperty on it will work fine 
+
+in display:flex , if we do magin-left :autop then that element will get left margin having remaining free space in the flex container.
+
+
+CSS property: 
+how elements that don't fit into the container should appears?
+overflow: hidden/scroll
+
+flex-shrink is default 1 which is on
+and flex-gap is 0 whoch is off
+
