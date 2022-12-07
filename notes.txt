@@ -172,3 +172,33 @@ always use icon fonts or svg's which are easily scalable.
 steal like an artist from example these websites: awwwards, land-book, one page website inspiration , screenlane(for individual components)
 a good start up website example: orizon
 
+
+
+html tables:
+
+<table>
+<tr>
+<td>
+<th>
+<thead>
+<tbody>
+
+in CSS: we also have AND selecto without space
+.class1.class2{
+
+}
+so something like this meaning element having both the classes must get this styling
+
+css property: 
+transform: scale to scale anything related to element's own size
+/ translate(x,y) related ot element's own size
+
+vh: veiwport height
+vw: viewport width
+
+Rubik font , Inter font from google fonts
+backlground-image: loner-gradient(to side, c1,c2): on top , another back :2nd img to be considered (to stock up images)
+
+b-i: url(iamge path);
+background-size:cover; : to give b-i size according to element its being applied to.
+
