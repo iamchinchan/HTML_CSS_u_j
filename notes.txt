@@ -225,5 +225,89 @@ how elements that don't fit into the container should appears?
 overflow: hidden/scroll
 
 flex-shrink is default 1 which is on
-and flex-gap is 0 whoch is off
+and flex-gap is 0 which is off
 
+SEO: search engne optimization
+
+responsive web designs: 
+
+use of rem instead of px and max-width instead of width
+
+fluid layouts
+flexible images: use % or vh/vw
+
+
+diff btw section and article in HTML:
+
+Sections are for generic parts of document.
+and Articles are more self contained
+
+diff btw anchor and buttons:
+
+<a> are used to go to another on somewhere else in dame page so for manily navigation purpose, and buttons are used for action purposes, can be used for menu's to perform particular functionality.
+
+html entites: &npsp;  :non brwaking space
+&rarr;
+&darr; : down array
+
+Vs code shows a tool tip for more info on the word/element/property
+
+
+animation:
+transition: all/ property time(1ms , 1s exmaples) , animation type
+
+helper classes: !important should mark imp
+
+box-shadow: inset 0 0 0 x rem/px color;
+inset: for adding shadow inside of the element , and not outside otherwise it will try to change entrire layout while hovering on the element
+
+on images:
+
+we can use:
+filter: grayscsle/ brightness
+we have opacity
+and masny properties to change how image looks in our website
+
+
+nice trick for links:
+
+text-decoration: none;
+  padding-bottom: 0.2rem;
+  border-bottom: 1.2px solid currentColor; // for same color as element
+
+.link:hover,
+.link:active {
+  color: #cf711f;
+  border-bottom: 1px solid transparent;
+  /* border: none; */ dont use this
+}
+
+inset hack:
+box-shadow: inset 0 0 0 0.1rem #cf711f;
+
+we can also use translateY/X other than just translate:
+
+transform: translateY(-1.2rem);
+
+to style hr elelement:
+
+.featured-bar {
+  border: 0;
+  height: 2px;
+  /* color: #e67e22; */
+  background: #e67e22;
+}
+
+
+figure element in HTML:
+
+used for self contained Content mostly which have captions.
+can be used for diagragms, photos, code listings
+
+blockquote element is used for representing quote, things someone else said,
+for product reviews, for blog posts,
+or when we want to quote someone in the content of the article.
+
+we can use figcaption html element inside of a figure element to give something a caption
+
+:not(:last-child),  not pseudo class
